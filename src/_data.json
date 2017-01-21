@@ -1,0 +1,22 @@
+{
+  "index": {
+    "title": "Home",
+    "description": "Home."
+  },
+  "about": {
+    "title": "About",
+    "description": "About."
+  },
+  "cv": {
+    "title": "CV",
+    "description": "CV."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Projects."
+  },
+  "404": {
+    "title": "404",
+    "description": "404."
+  }
+}
