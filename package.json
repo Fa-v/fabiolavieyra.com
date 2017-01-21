@@ -13,7 +13,9 @@
     "browser-sync": "latest",
     "gulp": "latest",
     "gulp-gh-pages": "latest",
-    "gulp-rimraf": "latest",
-    "harp": "latest"
+    "gulp-rimraf": "latest"
+  },
+  "dependencies": {
+    "harp": "^0.23.0"
   }
 }
