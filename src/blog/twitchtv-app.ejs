@@ -1,0 +1,25 @@
+<div class="columns is-multiline">
+  <div class="column is-4">
+    <figure class="image is-4by3">
+      <img src="/images/free-code-camp/twitchtv_app.png" alt="twitchtv_app">
+    </figure>
+  </div>
+  <div class="column">
+  <h3 class="title"> Twitchtv app </h3>
+    <h3><span style="font-weight: bold">Client:</span> Personal Project</h3>
+    <h3><span style="font-weight: bold">Made With:</span> Angular2, Materialize, Github Pages</h3>
+    <h3><span style="font-weight: bold">Time in Development:</span> About 2 weeks</h3>
+    <h3><a href="https://fa-v.github.io/twitchtv_app/" target="blank">Twitchtv app</a></h3>
+    <h3><a href="https://github.com/Fa-v/twitchtv_app" target="blank">GitHub repository</a></h3>
+  </div>
+
+  <div class="column is-12">
+    <p>The Twitchtv app is the last of the intermediate front-end development projects for Free Code Camp. This was a challenging project for me. First of all, it was a bit hard to understand how to use the Twitch Api. After I figured out that I had to make three requests to different endpoints to obtain all the data I needed, I decided tho use Angular 2 and Materialize to build this project.</p>
+    <br>
+    <p>I started to learn about observables at the time. I was looking for the best way to procees the response of the three calls to the Api. I learned that with observables you can make simultaneous requests and process the data from the streams the observables create. I found that with the 'forkJoin' method you are able to run the calls in parallel and construct an array with combined data of all the requests.</p>
+    <br>
+    <p>
+    To publish the app as a GitHub Page I just needed to run the command 'ng build --prod' which created a dist folder with the minified code that is used in production. After this, I ran 'ng github-pages:deploy' on the command line to deploy the app on GitHub so everybody is able to access it.
+    </p>
+  </div>
+</div>

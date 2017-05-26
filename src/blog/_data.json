@@ -1,0 +1,29 @@
+{
+  "index": {
+    "title": ""
+  },
+  "weather-app": {
+    "title": "Weather app"
+  },
+  "twitchtv-app": {
+    "title": "Twitchtv app"
+  },
+  "30-Day-JavaScript-Challenge": {
+    "title": "30-Day JavaScript Challenge"
+  },
+  "calculator": {
+    "title": "Calculator"
+  },
+  "film-database": {
+    "title": "Film Database"
+  },
+  "wikipedia-viewer": {
+    "title": "Wikipedia Viewer"
+  },
+  "random-quote-machine": {
+    "title": "Random Quote Machine"
+  },
+  "tribute-page": {
+    "title": "Tribute Page"
+  }
+}

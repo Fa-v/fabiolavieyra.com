@@ -12,8 +12,17 @@
   <body>
     <div class="container">
       <%- partial("_partials/_header") %>
+
+      <% if(current.published !== false) { %>
+        <% var content = current.path[0] == "blog" && current.path[1] != "index" %>
+        <% if(content) { %>
+          <%- partial("_partials/_content") %>
+        <% } else { %>
+          <%- yield %>
+        <% } %>
+      <% } %>
       
-      <%- yield %>
+      <!--<%- yield %>-->
       
       <%- partial("_partials/_footer") %>
     </div>
