@@ -1,0 +1,24 @@
+<div class="columns is-multiline">
+  <div class="column is-4">
+    <figure class="image is-4by3">
+      <img src="/images/free-code-camp/simonGame.png" alt="Simon Game">
+    </figure>
+  </div>
+  <div class="column">
+  <h3 class="title">Simon Game</h3>
+    <h3><span style="font-weight: bold">Client:</span> Personal Project</h3>
+    <h3><span style="font-weight: bold">Made With:</span> React, CSS Grid Layout, Github Pages</h3>
+    <h3><span style="font-weight: bold">Time in Development:</span> About 3 weeks</h3>
+    <h3><a href="https://fa-v.github.io/simon-game/" target="blank">Simon Game</a></h3>
+    <h3><a href="https://github.com/Fa-v/simon-game" target="blank">GitHub repository</a></h3>
+  </div>
+
+  <div class="column is-12">
+    <p>The Simon Game is the last of the advance front-end development projects for Free Code Camp. I decided to use React and the CSS Grid Layout to build this project.</p>
+    <p>I've been integrating CSS libraries in my projects like Bootstrap, Materialize and Bulma for the interface design. A couple of months ago I read some articles about the CSS Grid Layout and decided to give it a try. CSS Grid Layout lets you create and declare a grid structure in the CSS. I've worked throughout the video tutorials of Rachel Andrew <a href="https://gridbyexample.com/" target="blank">Grid by Example</a> - to complete the whole course is on my to do list.</p>
+    <p>The Simon Game was a difficult project. I had two main problems to work with: the asynchronicity of the state in React and interacting with the DOM.</p>
+    <p> React documentation recommends that "you should not rely on their values (state values) for calculating the next state". Instead, it's better to use setState that accepts a function whose first argument is the previous state and the second, the props, at the time the update is applied. This let me better manage the randomly generated colors and all the validations to compare them with the player's input.</p>
+    <p>The other thing was that React renders the app really fast so the function that handles the setTimeout to show the sequence of colors wasn't fast enough to apply the animation of the buttons. I had to ask for help to my husband to solve this. He helped me to refactor my code and configure two additional setTimeouts with different intervals to add and reset the CSS classes that animate the buttons.</p>
+    <p>I am impressed with React and the CSS Grid Layout. I'll surely be an advocate for both of them.</p>
+  </div>
+</div>

@@ -2,6 +2,18 @@
   "index": {
     "title": "Blog"
   },
+  "simonGame": {
+    "title": "Simon Game"
+  },
+  "tic-tac-toe": {
+    "title": "Tic Tac Toe"
+  },
+  "pomodoro-clock": {
+    "title": "Pomodoro Clock"
+  },
+  "react-calculator": {
+    "title": "React Calculator"
+  },
   "weather-app": {
     "title": "Weather app"
   },
