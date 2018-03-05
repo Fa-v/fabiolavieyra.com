@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Twitchtv app | Fabiola Vieyra</title>
+  <title>Arcade Game | Fabiola Vieyra</title>
   <link href="/css/bulma.css" rel="stylesheet">
   <link href="/css/main.css" rel="stylesheet">
   <script src="https://use.fontawesome.com/c2b6434db5.js"></script>
@@ -46,26 +46,29 @@
     <div class="columns is-multiline">
   <div class="column is-4">
     <figure class="image is-2by1">
-      <img src="/images/free-code-camp/twitchtv_app.png" alt="twitchtv_app">
+      <img src="/images/nanodegree-projects/arcade-game.png" alt="Arcade Game">
     </figure>
   </div>
   <div class="column">
-    <h3 class="title"> Twitchtv app </h3>
-    <h3><span style="font-weight: bold">Client:</span> Personal Project</h3>
-    <h3><span style="font-weight: bold">Made With:</span> Angular2, Materialize, Github Pages</h3>
+    <h3 class="title">Arcade Game</h3>
+    <h3><span style="font-weight: bold">Client:</span>Udacity Project</h3>
+    <h3><span style="font-weight: bold">Made With:</span>HTML Canvas, OOP, Github Pages</h3>
     <h3><span style="font-weight: bold">Time in Development:</span> About 2 weeks</h3>
-    <h3><a href="https://fa-v.github.io/twitchtv_app/" target="blank">Demo</a></h3>
-    <h3><a href="https://github.com/Fa-v/twitchtv_app" target="blank">GitHub repository</a></h3>
+    <h3><a href="https://fa-v.github.io/arcade-game/" target="blank">Demo</a></h3>
+    <h3><a href="https://github.com/Fa-v/arcade-game" target="blank">GitHub repository</a></h3>
   </div>
 
-  <div class="column is-8 is is-offset-4">
-    <p>The Twitchtv app is the last of the intermediate front-end development projects for Free Code Camp. This was a challenging project for me. First of all, it was a bit hard to understand how to use the Twitch Api. After I figured out that I had to make three requests to different endpoints to obtain all the data I needed, I decided tho use Angular 2 and Materialize to build this project.</p>
+  <div class="column is-8 is-offset-4">
+    <p>This is the third project of the intermediate JavaScript section for Udacity's front-end web development nanodegree. It's a version of the classic frogger arcade-game. The basic requirements for this projects are:</p>
     &nbsp
-    <p>I started to learn about observables at the time. I was looking for the best way to procees the response of the three calls to the Api. I learned that with observables you can make simultaneous requests and process the data from the streams the observables create. I found that with the 'forkJoin' method you are able to run the calls in parallel and construct an array with combined data of all the requests.</p>
+    <p>The player has to reach the water without colliding into the enemies (bugs).</p>
+    <p>The player can move up, down, left and right without falling out of the screen.</p>
+    <p>The enemies run on the paved block portion of the scene at various speeds.</p>
+    <p>The game resets when the player collides into an enemy.</p>
+    <p>When the player reaches the water the game is won.</p>
     &nbsp
-    <p>
-    To publish the app as a GitHub Page I just needed to run the command 'ng build --prod' which created a dist folder with the minified code that is used in production. After this, I ran 'ng github-pages:deploy' on the command line to deploy the app on GitHub so everybody is able to access it.
-    </p>
+    <p><span style="font-weight: bold">What I've learned:</span>
+    This project's goal is to learn about object-oriented programming. All functions must be either class functions or class prototype functions. I've learned how to write coherent class prototype functions as well as how the scope and prototype chains works. I've also learned how to use canvas to draw patterns, text and how to create animated elements.</p>
 
     <a href="/"><button class="button button is-info is-outlined">Home</button></a>
     <a href="/projects"><button class="button button is-info is-outlined">Projects</button></a>
@@ -79,26 +82,29 @@
       <!--<div class="columns is-multiline">
   <div class="column is-4">
     <figure class="image is-2by1">
-      <img src="/images/free-code-camp/twitchtv_app.png" alt="twitchtv_app">
+      <img src="/images/nanodegree-projects/arcade-game.png" alt="Arcade Game">
     </figure>
   </div>
   <div class="column">
-    <h3 class="title"> Twitchtv app </h3>
-    <h3><span style="font-weight: bold">Client:</span> Personal Project</h3>
-    <h3><span style="font-weight: bold">Made With:</span> Angular2, Materialize, Github Pages</h3>
+    <h3 class="title">Arcade Game</h3>
+    <h3><span style="font-weight: bold">Client:</span>Udacity Project</h3>
+    <h3><span style="font-weight: bold">Made With:</span>HTML Canvas, OOP, Github Pages</h3>
     <h3><span style="font-weight: bold">Time in Development:</span> About 2 weeks</h3>
-    <h3><a href="https://fa-v.github.io/twitchtv_app/" target="blank">Demo</a></h3>
-    <h3><a href="https://github.com/Fa-v/twitchtv_app" target="blank">GitHub repository</a></h3>
+    <h3><a href="https://fa-v.github.io/arcade-game/" target="blank">Demo</a></h3>
+    <h3><a href="https://github.com/Fa-v/arcade-game" target="blank">GitHub repository</a></h3>
   </div>
 
-  <div class="column is-8 is is-offset-4">
-    <p>The Twitchtv app is the last of the intermediate front-end development projects for Free Code Camp. This was a challenging project for me. First of all, it was a bit hard to understand how to use the Twitch Api. After I figured out that I had to make three requests to different endpoints to obtain all the data I needed, I decided tho use Angular 2 and Materialize to build this project.</p>
+  <div class="column is-8 is-offset-4">
+    <p>This is the third project of the intermediate JavaScript section for Udacity's front-end web development nanodegree. It's a version of the classic frogger arcade-game. The basic requirements for this projects are:</p>
     &nbsp
-    <p>I started to learn about observables at the time. I was looking for the best way to procees the response of the three calls to the Api. I learned that with observables you can make simultaneous requests and process the data from the streams the observables create. I found that with the 'forkJoin' method you are able to run the calls in parallel and construct an array with combined data of all the requests.</p>
+    <p>The player has to reach the water without colliding into the enemies (bugs).</p>
+    <p>The player can move up, down, left and right without falling out of the screen.</p>
+    <p>The enemies run on the paved block portion of the scene at various speeds.</p>
+    <p>The game resets when the player collides into an enemy.</p>
+    <p>When the player reaches the water the game is won.</p>
     &nbsp
-    <p>
-    To publish the app as a GitHub Page I just needed to run the command 'ng build --prod' which created a dist folder with the minified code that is used in production. After this, I ran 'ng github-pages:deploy' on the command line to deploy the app on GitHub so everybody is able to access it.
-    </p>
+    <p><span style="font-weight: bold">What I've learned:</span>
+    This project's goal is to learn about object-oriented programming. All functions must be either class functions or class prototype functions. I've learned how to write coherent class prototype functions as well as how the scope and prototype chains works. I've also learned how to use canvas to draw patterns, text and how to create animated elements.</p>
 
     <a href="/"><button class="button button is-info is-outlined">Home</button></a>
     <a href="/projects"><button class="button button is-info is-outlined">Projects</button></a>
