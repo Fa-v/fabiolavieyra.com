@@ -1,10 +1,10 @@
 {
   "globals": {
     "siteTitle": "Fabiola Vieyra",
-    "tagline": "Profesora por vocación, bailarina por deseo y programadora por desición. Me gusta ser rigurosa con mi trabajo y superarme cada día.",
+    "tagline": "Front-end Web Developer",
     "name": "Fabiola Vieyra",
     "email": "fabiolacvieyra@gmail.com",
-    "url": "http://fabiolavieyra.com",
+    "url": "https://fabiolavieyra.com",
     "service": {
       "analytics": "UA-90698627-1"
     }

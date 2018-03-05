@@ -2,7 +2,25 @@
   "index": {
     "title": "Blog"
   },
-  "simonGame": {
+  "fabiola-website": {
+    "title": "My website"
+  },
+  "neighborhood-map": {
+    "title": "Neighborhood Map"
+  },
+  "arcade-game": {
+    "title": "Arcade Game"
+  },
+  "memory-game": {
+    "title": "Memory Game"
+  },
+  "portfolio": {
+    "title": "Portfolio"
+  },
+  "linda-website": {
+    "title": "Linda Website"
+  },
+  "simon-game": {
     "title": "Simon Game"
   },
   "tic-tac-toe": {
@@ -20,22 +38,7 @@
   "twitchtv-app": {
     "title": "Twitchtv app"
   },
-  "30-Day-JavaScript-Challenge": {
-    "title": "30-Day JavaScript Challenge"
-  },
-  "calculator": {
-    "title": "Calculator"
-  },
   "film-database": {
     "title": "Film Database"
-  },
-  "wikipedia-viewer": {
-    "title": "Wikipedia Viewer"
-  },
-  "random-quote-machine": {
-    "title": "Random Quote Machine"
-  },
-  "tribute-page": {
-    "title": "Tribute Page"
   }
 }

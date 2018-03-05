@@ -3,22 +3,19 @@
     <div class="columns">
       <div class="column is-2">
           <a id="home-nav-item" class="nav-item is-tab <%- current.source == 'index' && current.path[0] !== 'blog' ? 'is-active' : '' %>" href="/">
-            <p>Fabiola Vieyra</p>
+            <p>Home</p>
           </a>
       </div>
       <div class="column is-10">
         <ul>
-          <li><a class="nav-item is-tab <%- current.source === 'about' ? 'is-active' : '' %>" href="/about">
-            About
+          <li><a class="nav-item is-tab <%- current.source === 'projects' ? 'is-active' : '' %>" href="/projects">
+            Projects
           </a></li>
           <li><a class="nav-item is-tab <%- current.source === 'cv' ? 'is-active' : '' %>" href="/cv">
             CV
           </a></li>
-          <li><a class="nav-item is-tab <%- current.source === 'projects' ? 'is-active' : '' %>" href="/projects">
-            Projects
-          </a></li>
-          <li><a class="nav-item is-tab <%- current.path[0] === 'blog' ? 'is-active' : '' %>" href="/blog">
-            Blog
+          <li><a class="nav-item is-tab <%- current.source === 'about' ? 'is-active' : '' %>" href="/about">
+            About
           </a></li>
         </ul>
       </div>
